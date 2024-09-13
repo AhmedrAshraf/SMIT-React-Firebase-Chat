@@ -10,7 +10,7 @@ const Loading = () => {
 
     const checkUser = async () => {
         const userId = await localStorage.getItem('userId');
-        if (userId) navigate("/home")
+        if (userId !== null) navigate("/home")
         else navigate("/login")
     }
 

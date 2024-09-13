@@ -1,0 +1,31 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://cdn.britannica.com/79/230479-050-A5491A8A/US-President-Joe-Biden-delivers-remarks-about-the-Build-Back-Better-legislations-2021.jpg);
+  }
+  .container div {
+    bottom: 0;
+    position: absolute;
+    display: flex;
+  }
+  .container button {
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: 2px solid brown;
+  }
+  
+  .container img {
+    width: 690px;
+    position: absolute;
+  }
+  .container button:hover {
+    font-weight: bold;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+  }
